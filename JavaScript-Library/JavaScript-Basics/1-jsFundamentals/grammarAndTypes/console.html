@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Console</title>
+</head>
+<body>
+    <h1>The Console</h1>
+    <p>Console is used for developers only, to know whats going on with the code. The console is an object that can give us access to as browser's debugging console.</p>
+    <ul>
+        <li>Humans make errors. Gasp!</li>
+        <li>The browser is the home of the console.</li>
+        <li>The Console Object</li>
+            <ul>
+                <li>console.log () outouts a message, tracking data, developmental use only.</li>
+                <li>console.warn ()</li>
+                <li>console.error ()</li>
+            </ul>
+            <li>The console is used for debugging puposes ONLY!</li>
+
+    </ul>
+    /
+    <script>
+        //console.log
+        console.log ("This message is a string");
+        //Script tags will always be at the very bottom of the code located after or before closing tag of body
+//You can use single or double quotes, its the same thing, it is netirely up to the developer.
+
+
+        let name ="Emily Fisher";
+console.log (name);
+//we get the value associated with the declaration(name)
+
+//console.warn puts out a warning yello background color, does not interrupt the code from executing
+//if you have console logs in your finish codes and someone comes visit your site there would data leaks, 
+//very important before you publish your website to take out all of the console logs.
+console.warn("This is a warning");
+
+let warning="Uh Oh!"
+console.warn(warning);
+
+//console.error
+//Could be string or variable, puts out a warning .Does not interrupt the code from executing
+console.error("This is an error message");
+
+let err= "This looks real bad!";
+console.error(err);
+
+    </script>
+</body>
+</html>
+
